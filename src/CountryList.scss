@@ -1,0 +1,35 @@
+.CountryList {
+  button {
+    border-radius: 20px;
+    border: none;
+    background-color: #8fff8f;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: rgb(134, 150, 134);
+    cursor: pointer;
+  }
+  .selected {
+    background-color: #85db85;
+    color: white;
+    transition: 0.2s ease-in-out;
+  }
+  .filterButtons {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    :nth-child(3) {
+      margin-left: auto;
+    }
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      background-color: #ccffcc;
+      padding: 5px;
+      p {
+        padding: 5px 10px;
+      }
+    }
+  }
+}
